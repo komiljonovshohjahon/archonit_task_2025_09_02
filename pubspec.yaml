@@ -1,0 +1,35 @@
+name: archonit_task_2025_09_02
+description: "A test task for Archonic"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.9.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/sf_pro_text/
+
+
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/sf_pro_text/SFProText-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/sf_pro_text/SFProText-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/sf_pro_text/SFProText-Bold.ttf
+          weight: 600
